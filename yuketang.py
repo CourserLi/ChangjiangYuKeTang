@@ -48,8 +48,8 @@ options.add_argument('--disable-blink-features=AutomationControlled')
 options.add_experimental_option("excludeSwitches", ['enable-automation', 'enable-logging'])
 options.add_argument('--disable-gpu')
 # 无头浏览器，窗口调大，防止样式堆叠
-#options.add_argument("--headless")
-#options.add_argument("--window-size=4000,1600")
+options.add_argument("--headless")
+options.add_argument("--window-size=4000,1600")
 
 # 初始化
 web = Chrome(options=options)
