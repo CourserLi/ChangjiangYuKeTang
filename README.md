@@ -3,6 +3,7 @@
 
 ### 运行说明
 每天上午开始 10 点开始执行，直到晚上 16 点关闭
+
 每半个小时检查一次，共检查 12 次
 
 ### 代码说明
@@ -15,5 +16,11 @@ PS：其他的懒得说明，直接看代码就好
 **前置条件**
 1. chromedriver.exe 放在和 python.exe 同目录
 2. 下载 python 必要库 `pip install -r requirements.txt`
+
 **运行方式**
-我是放在 Windows 服务器中运行的，
+
+我是放在 Windows 服务器中运行的，下载了 python 并配置好环境
+
+定时运行：控制面板 -> 系统和安全 -> 管理工具 -> 计划任务 -> 创建基本任务 -> 脚本选择 -> `C:\Users\Administrator\Desktop\ChangjiangYuKeTang\run.bat`
+
+其中 run.bat 的内容为 `C:\Users\Administrator\AppData\Local\Programs\Python\Python310\python.exe C:\Users\Administrator\Desktop\ChangjiangYuKeTang\yuketang.py`
