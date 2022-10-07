@@ -12,4 +12,8 @@
 PS：其他的懒得说明，直接看代码就好
 
 ### 运行环境
+**前置条件**
+1. chromedriver.exe 放在和 python.exe 同目录
+2. 下载 python 必要库 `pip install -r requirements.txt`
+**运行方式**
 我是放在 Windows 服务器中运行的，
